@@ -22,6 +22,9 @@ namespace Lab02
             // bool isAnswer
             // bool isRunning
             // bool isYes
+            // bool willQuit
+            // bool shouldRun
+            // bool hasValue
             //
             // Also because this boolean is actually used so far away from the actual while loop,
             // at first glance would have to reference a bit to this boolean.  you could always
@@ -106,7 +109,7 @@ namespace Lab02
                             break;
                     }
                 }   
-                // James - refer to line 29, also, any boolean expression always assume true, so 
+                // James - refer to line 29, also, any boolean expression always assumes true, so 
                 // if you put your expression into the while loop, it will always assume true
                 // while (ynAnswer), this will assume true, if it's false, then it breaks out.
             } while (ynAnswer == true);
