@@ -106,7 +106,9 @@ namespace Lab02
                             break;
                     }
                 }   
-                // James - refer to line 29
+                // James - refer to line 29, also, any boolean expression always assume true, so 
+                // if you put your expression into the while loop, it will always assume true
+                // while (ynAnswer), this will assume true, if it's false, then it breaks out.
             } while (ynAnswer == true);
         }
 
