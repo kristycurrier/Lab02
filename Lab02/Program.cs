@@ -19,12 +19,9 @@ namespace Lab02
             // much more readable at the end of the day.  another common convention is to name 
             // booleans based on an assumed truth.  for example
             //
-            // bool isAnswer
-            // bool isRunning
-            // bool isYes
-            // bool willQuit
-            // bool shouldRun
-            // bool hasValue
+            // bool isAnswer        bool willQuit
+            // bool isRunning       bool shouldRun
+            // bool isYes           bool hasValue
             //
             // Also because this boolean is actually used so far away from the actual while loop,
             // at first glance would have to reference a bit to this boolean.  you could always
